@@ -1,0 +1,103 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-linear-gradient(120deg, #E56C52, #EEAA6E, #1EDCB9);
+  background: -o-linear-gradient(120deg, #E56C52, #EEAA6E, #1EDCB9);
+  background: linear-gradient(-30deg, #E56C52, #EEAA6E, #1EDCB9); }
+
+.container {
+  width: 1200px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.item {
+  width: 370px;
+  margin: 10px 15px;
+  font-family: sans-serif,微軟正黑體;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; }
+
+.item:hover {
+  -webkit-box-shadow: 0 10px 30px rgba(240, 0, 0, 0.3);
+  box-shadow: 0 10px 30px rgba(240, 0, 0, 0.3);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.item .pic {
+  width: 50%; }
+
+.item .pic img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
+.item .txt {
+  width: 50%;
+  -webkit-box-sizing: boder-box;
+  box-sizing: boder-box;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.item .txt h2 {
+  margin-bottom: 4px;
+  font-weight: 600; }
+
+.item .txt p {
+  font-weight: 100;
+  color: #666; }
+
+.item .txt .btn {
+  line-height: 1.5em;
+  border: 1px solid #ccc;
+  padding: 0 5px;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  text-decoration: none;
+  border-radius: 50px;
+  margin-top: auto;
+  color: #ccc;
+  margin-top: 6px; }
+
+.item .txt .btn:hover {
+  color: #fff;
+  background-color: #ccc; }
+
+@media only screen and (max-width: 768px) {
+  .wrap {
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(120deg, #E56C52, #EEAA6E, #1EDCB9);
+    background: -o-linear-gradient(120deg, #E56C52, #EEAA6E, #1EDCB9);
+    background: linear-gradient(-30deg, #E56C52, #EEAA6E, #1EDCB9); }
+  .container {
+    width: 700px; }
+  .item {
+    width: 600px; } }
