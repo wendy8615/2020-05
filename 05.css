@@ -90,7 +90,7 @@
   color: #fff;
   background-color: #ccc; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   .wrap {
     width: 100%;
     height: 100%;
@@ -98,6 +98,6 @@
     background: -o-linear-gradient(120deg, #E56C52, #EEAA6E, #1EDCB9);
     background: linear-gradient(-30deg, #E56C52, #EEAA6E, #1EDCB9); }
   .container {
-    width: 700px; }
+    width: 100%; }
   .item {
-    width: 600px; } }
+    width: 100%; } }
